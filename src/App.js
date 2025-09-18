@@ -42,12 +42,22 @@ function App() {
                 onChange={(e) => setDatePlan(e.target.value)}
               >
                 <option value="">-- Choose one --</option>
+                \
                 <option value="Trampoline Park 🌌">Trampoline Park 🌌</option>
                 <option value="Pottery Date 🎬">Pottery Date🎬</option>
-                <option value="Mystery Room 🎬">mystery Room🎬</option> 
+                <option value="Mystery room 🎬">Mystery Room🎬</option> 
                 <option value="Road trip 🚗">Road trip 🚗</option>
-                <option value="Massage & spa for you 🧖‍♂️">Massage & spa for you 🧖‍♂️</option>
               </select>
+            </label>
+
+            <label>
+              When shall we do this? 🎈
+              <input
+                type="date"
+                value={selectedDate}
+                min="2025-09-18"
+                onChange={(e) => setSelectedDate(e.target.value)}
+              />
             </label>
 
             <button onClick={handleSubmit}>Confirm 🎁</button>
@@ -57,8 +67,8 @@ function App() {
             <h2>Yay! 🎊</h2>
             <p>
               We're going on a <strong>{datePlan}</strong> on{" "}
-              <strong>20</strong>! 💖 Can't
-              wait to celebrate you !
+              <strong>{new Date(selectedDate).toDateString()}</strong>! 💖 Can't
+              wait to celebrate your special day together!
             </p>
 
             {!submittedReply ? (
