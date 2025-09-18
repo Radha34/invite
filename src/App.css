@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 0.8s ease;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+select,
+input[type="date"] {
+  padding: 10px;
+  width: 100%;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 1.5em;
+  padding: 12px 20px;
+  background-color: #ee9ca7;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff6f61;
+}
+
+.confirmation {
+  margin-top: 1em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 0.8s ease;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  font-weight: 500;
+  text-align: left;
+}
+
+select,
+input[type="date"],
+textarea {
+  padding: 10px;
+  width: 100%;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  resize: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  margin-top: 1.5em;
+  padding: 12px 20px;
+  background-color: #ee9ca7;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff6f61;
+}
+
+.confirmation {
+  margin-top: 1em;
+}
+
+.reply-form {
+  margin-top: 2em;
+  text-align: left;
+}
+
+.reply-message {
+  margin-top: 2em;
+  background: #fff8f2;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #f7c5c5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
