@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  /* background: linear-gradient(135deg, #ffdde1, #ee9ca7); */
+  background: url('/assets/bg-collage.jpg') no-repeat center center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
