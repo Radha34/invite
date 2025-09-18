@@ -43,9 +43,9 @@ function App() {
               >
                 <option value="">-- Choose one --</option>
                 \
-                <option value="Trampoline Park 🌌">Trampoline Park 🌌</option>
-                <option value="Pottery Date 🎬">Pottery Date🎬</option>
-                <option value="Mystery room 🎬">Mystery Room🎬</option> 
+                <option value="Trampoline Park 🤸‍♂️">Trampoline Park 🤸‍♂️</option>
+                <option value="Pottery Date 🏺">Pottery Date 🏺</option>
+                <option value="Mystery room 🕵️‍♀️">Mystery Room 🕵️‍♀️</option> 
                 <option value="Road trip 🚗">Road trip 🚗</option>
               </select>
             </label>
